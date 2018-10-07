@@ -7,3 +7,5 @@
 ### For contributors
 
 - For all those who are not beginners, can create an issue for any basic Python program.
+
+### Some of the examples are as follows:
