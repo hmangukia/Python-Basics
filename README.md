@@ -11,3 +11,5 @@
 ### Some of the examples are as follows:
 
 - Patterns
+- Check whether a string is palindrome or not
+- Fibonacci series
