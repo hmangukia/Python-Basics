@@ -13,7 +13,7 @@
 - Patterns
 - Check whether a string is palindrome or not
 - Fibonacci series
-- Check whether a number is even not
-- Check whether a number is odd not
+- Check whether a number is even or not
+- Check whether a number is odd or not
 - Print even numbers upto nth term
 - Print odd numbers upto nth term
