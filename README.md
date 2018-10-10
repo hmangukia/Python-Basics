@@ -13,3 +13,4 @@
 - Patterns
 - Check whether a string is palindrome or not
 - Fibonacci series
+- Check whether a number is even or not
