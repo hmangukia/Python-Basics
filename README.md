@@ -16,3 +16,4 @@
 - Check whether a number is even not
 - Check whether a number is odd not
 - Print even numbers upto nth term
+- Print odd numbers upto nth term
