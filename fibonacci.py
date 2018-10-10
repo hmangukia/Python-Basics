@@ -1,0 +1,6 @@
+#This program returns the Nth number of the fibonacci sequence. Reminder that this is not the only way to do this
+
+def Fibonacci(n):
+  if n==0 : return 0
+  elif n==1 :return 1
+  else: return Fibonacci(n-1)+Fibonacci(n-2)
