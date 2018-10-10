@@ -3,8 +3,8 @@
 n = int(input("Enter the nth term: "))
 
 sum = 0
-for i in range(n):
-  if i%2 == 1:
-    sum = sum + i
-
+i=1
+while i<=n:
+   sum = sum + i
+   i=i+2
 print("Sum is",sum)
