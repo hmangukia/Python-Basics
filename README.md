@@ -17,3 +17,7 @@
 - Check whether a number is odd or not
 - Print even numbers up to nth term
 - Print odd numbers up to nth term
+- Get all permutations of an array, list
+- Check if two strings are Anagrams of each other
+- Sorting
+- Searching
