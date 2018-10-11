@@ -10,7 +10,7 @@ __author__ = 'Sanjay'
 # Addition (+)
 # Subtraction (-)
 # Multiplication (*)
-# (We'll learn about division in the next task.)
+# Division
 #
 # Task
 # Read two integers from STDIN and print three lines where:
@@ -19,11 +19,8 @@ __author__ = 'Sanjay'
 # The second line contains the difference of the two numbers (first - second).
 # The third line contains the product of the two numbers.
 # Input Format
-# The first line contains the first integer, aa. The second line contains the second integer, bb.
+# The first line contains the first integer, numberA. The second line contains the second integer, numberB.
 #
-# Constraints
-# 1?a?10101?a?1010
-# 1?b?10101?b?1010
 #
 # Output Format
 # Print the three lines as explained above.
@@ -37,10 +34,12 @@ __author__ = 'Sanjay'
 # 5
 # 1
 # 6
+# 1.5
 # Explanation
-# 3+2?53+2?5
-# 3?2?13?2?1
-# 3?2?6
+# 3+2
+# 3-2
+# 3*2
+# 3/2
 
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 numberA = int(raw_input())
@@ -49,3 +48,4 @@ numberB = int(raw_input())
 print (numberA+numberB)
 print (numberA-numberB)
 print (numberA*numberB)
+print (numberA/numberB)
