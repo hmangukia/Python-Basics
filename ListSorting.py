@@ -1,6 +1,11 @@
 __author__ = 'Sanjay'
 
-def compareTwoList(firstList,secondList):
+
+def sortingList(firstList):
+    '''
+    @param: firstList(list) as parameter
+    @desc: give me a integers in a list, I will give you sorted list.
+    '''
     if (len(firstList)) != 0:
         return firstList.sort()
     else:
@@ -9,4 +14,4 @@ def compareTwoList(firstList,secondList):
 if __name__ == '__main__':
     # For your practise..
     # Get list input from user
-    compareTwoList([13,43431,54651,17676,37667886])
+    sortingList([13,43431,54651,17676,37667886])
