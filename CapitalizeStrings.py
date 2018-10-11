@@ -16,13 +16,19 @@ __author__ = 'Sanjay'
 #
 # Hello World
 
-def capitalizeAndGiveMe(userGiveInput):
-    l = userInput.split(" ")
-
-    for i in l:
-        print (i.capitalize())
+def capitalizeAndGiveMe(userGivenInput):
+    '''
+    @param: userGivenInput(string)
+    @desc: method will return capitalized string.
+    '''
+    splittedInput = userGivenInput.split(" ")
+    output =  ''
+    for i in splittedInput:
+        output = output + i.capitalize()
+    return output
 
 if __name__ == '__main__':
     userInput = str(intput())
     if userInput != '':
-        capitalizeAndGiveMe(userInput)
+        capitalizedString = capitalizeAndGiveMe(userInput)
+        print (capitalizedString)
