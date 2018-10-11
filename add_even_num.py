@@ -1,10 +1,20 @@
-# This program adds even numbers upto the number specified by the user
+# __author__ = 'Sanjay'
 
-n = int(input("Enter the nth term: "))
+# ProblemStatement : Add even numbers till given limit from the user.
 
-sum = 0
-for i in range(n):
-  if i%2 == 0:
-    sum = sum + i
 
-print("Sum is",sum)
+# method: addEvenNumbers
+# param : limit(int)
+# desc : iterate the limit, for each iteration check conditiom, if true, then add with sum.
+def addEvenNumbers(limit)
+    sum = 0
+    for item in range(limit):
+      if item%2 == 0:
+        sum = sum + item
+
+    print("Sum is",sum)
+
+
+if __name__ == '__main__':
+    userGivenInput = int(input("Enter the nth term: "))
+    addEvenNumbers(userGivenInput)
