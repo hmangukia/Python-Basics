@@ -1,13 +1,13 @@
-
+__author__ = 'Sanjay'
 # Description: compare two strings, get results true or false.
 
 
-def compareTwoStrings(firstValue,secondValie):
+def compareTwoStrings(firstValue,secondValue):
         '''
         @param : firstValue, secondValie (string) as paramters
         @desc : compares two strings and prints whether it's equal or not.
         '''
-        if firstValue == secondValie:
+        if firstValue == secondValue:
             print("both strings are equal")
         else:
             print("not equal")
