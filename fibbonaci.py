@@ -1,3 +1,5 @@
+#This program prints fibbonaci series 
+#fibbonaci series is a series in which next term is sum of previous 2 terms
 num = int(input("Enter the number to which you want the fibbonaci series to be calculated upto: "))
 
 temp1 = 0

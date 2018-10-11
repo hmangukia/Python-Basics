@@ -1,3 +1,4 @@
+#This program checks whether a number is prime or not
 def check_prime(number):
 	if number > 1:
 	   # check for factors
