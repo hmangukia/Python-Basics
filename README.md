@@ -17,3 +17,4 @@
 - Check whether a number is odd or not
 - Print even numbers up to nth term
 - Print odd numbers up to nth term
+- Sorting Algorithms
