@@ -12,8 +12,8 @@ __author__ = 'Sanjay'
 # 2
 # Here's the implementation..
 
-a = int(raw_input())
-b = int(raw_input())
+a = int(input("Enter the first value : "))
+b = int(input("Enter the second value : :))
 
 print(a, "is assinged to variable A and ", b, " is assigned to variable B" )
 a, b = b, a
