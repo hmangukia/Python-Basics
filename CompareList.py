@@ -17,6 +17,14 @@ if __name__ == '__main__':
     # For your practise..
     # Get list input from user and store in two variables
     # pass those two variables as parameters to compareTwoList method.
-    compareTwoList([1,1,1,1,3], [1,1,1,1,3]) # Both list are identical to each other!
-    compareTwoList([11,1,1], [11,1,5]) #Both list are identical to each other!
-    compareTwoList([1,2,3],[1,2])
+    firstInput = input("Enter first list elements separated by space ")
+    firstInputList = [int(i) for i in firstInput.split(" ")]
+    
+    secondInput = input("Enter second list elements separated by space ")
+    secondInputList = [int(i) for i in secondInput.split(" ")]
+    
+    compareTwolist(firstInputList, secondInputList)
+    
+#     compareTwoList([1,1,1,1,3], [1,1,1,1,3]) # Both list are identical to each other!
+#     compareTwoList([11,1,1], [11,1,5]) #Both list are identical to each other!
+#     compareTwoList([1,2,3],[1,2])
