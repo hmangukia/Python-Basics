@@ -1,5 +1,6 @@
 # This program adds odd numbers upto the number specified by the user
 
+# description
 n = int(input("Enter the nth term: "))
 
 sum = 0
