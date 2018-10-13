@@ -14,4 +14,9 @@ def sortingList(firstList):
 if __name__ == '__main__':
     # For your practise..
     # Get list input from user
-    sortingList([13,43431,54651,17676,37667886])
+    
+    input_string = input("Enter list elements separated by space ")
+    inputElements = [int(i) for i in input_string.split(" ")]
+    
+    output = sortingList(inputElements)
+    print ("After soring, the output is.." , output)
