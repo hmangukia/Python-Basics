@@ -6,7 +6,7 @@
 # method: addEvenNumbers
 # param : limit(int)
 # desc : iterate the limit, for each iteration check conditiom, if true, then add with sum.
-def addEvenNumbers(limit)
+def addEvenNumbers(limit):
     sum = 0
     for item in range(limit):
       if item%2 == 0:
