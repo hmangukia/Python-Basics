@@ -3,5 +3,5 @@ number = int(input("Write a number "))
 div = []
 for i in range(1,number+1):
     
-    if ((number % i) == 0):
-        div.append(i)
+    if ((number % i) == 0): # % (modulo) returns the remainder after number divided by i
+        div.append(i) # append() appends an element to the end of the list

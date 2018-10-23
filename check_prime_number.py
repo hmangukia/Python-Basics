@@ -2,7 +2,7 @@ def check_prime(number):
 	if number > 1:
 	   # check for factors
 	   for i in range(2,number):
-	       if (number % i) == 0:
+	       if (number % i) == 0: # % (modulo) returns the remainder after number divided by i
 	           print(number,"is not a prime number")
 	           print(i,"times",number//i,"is",number)
 	           break

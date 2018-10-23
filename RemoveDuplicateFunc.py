@@ -5,7 +5,7 @@ def compare(list):
     newList = []
     for x in list:
         if x not in newList:
-            newList.append(x)    
+            newList.append(x) # append() appends an element to the end of the list
     return newList
 
 x = compare(l)

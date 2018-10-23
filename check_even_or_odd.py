@@ -5,8 +5,8 @@ def validateEvenOrOddInput(num):
 	@param : num (int)
 	@desc: returns given input is odd or even
 	'''
-	if (type(num) == 'int'):			
-		if(num % 2==0):
+	if (type(num) == 'int'):
+		if(num % 2==0): # % (modulo) returns the remainder after num divided by 2
 			print('{} is an even number'.format(num))
 		else:
 			print('{} is an odd number'.format(num))	
