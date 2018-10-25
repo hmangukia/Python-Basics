@@ -1,4 +1,4 @@
-#Prime numbers using the sieve of eratosthenes
+# Prime numbers using the sieve of eratosthenes
 
 for i in xrange(int(raw_input("Number of tests: "))):
 	
