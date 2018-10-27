@@ -1,5 +1,5 @@
 #ALGORITHMS IS LIFE
-#pls, please give two numbers a, b (a <= b)
+print ("pls, please give two numbers separated by a space, a, b (a <= b)")
 first_number, second_number = map(int, input().split())
 
 #used (a *(a +1)/2) - (b *(b + 1)/2)
