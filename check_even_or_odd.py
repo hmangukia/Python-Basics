@@ -1,6 +1,6 @@
 #__author__ = "Sanjay"
 
-def validateEvenOrOddInput(num):
+def validateEvenOrOddInput(num):  #Defining a function to check odd or even
 	'''
 	@param : num (int)
 	@desc: returns given input is odd or even
@@ -11,9 +11,10 @@ def validateEvenOrOddInput(num):
 		else:
 			print('{} is an odd number'.format(num))	
 
+
 if __name__ == '__main__':
-	userInput = int(input('Input your number: '))
-	if (type(num) == 'int'):
-		validateEvenOrOddInput(userInput)
+	userInput = int(input('Input your number: ')) 
+	if (type(num) == 'int'):    #checking if num is an integer
+		validateEvenOrOddInput(userInput)  
 	else:
 		print ("Given input is not valid.")
