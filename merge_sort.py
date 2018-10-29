@@ -45,4 +45,20 @@ def merge(arr1, arr2):
 
 test_array = [5, 4, 3, 8, 5, 8, 110, 23123, 32, 55, 4, 34, 4, 6, 53]
 
-print(merge_sort(test_array))
+
+print('Please enter a list of numbers with spaces between the numbers.')
+print('No need for opening or closing brackets.')
+print('Sample input:')
+print('5 4 2 33 43 23 9 87 73 72')
+user_input = input('Please enter the list of numbers to be sorted: \n')
+
+# convert the string input into an array of strings
+user_array = user_input.split()
+
+
+# convert the strings into floats
+for i in range(len(user_array)):
+	user_array[i] = float(user_array[i])
+
+
+print(merge_sort(user_array))
