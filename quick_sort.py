@@ -23,12 +23,12 @@ def quick_sort(ARRAY):
     >>> quick_sort([-2, -5, -45])
     [-45, -5, -2]
     """
-    ARRAY_LENGTH = len(ARRAY)
+    ARRAY_LENGTH = len(ARRAY) # len() returns the number of items in the array
     if( ARRAY_LENGTH <= 1):
         return ARRAY
     else:
         PIVOT = ARRAY[0]
-        GREATER = [ element for element in ARRAY[1:] if element > PIVOT ]
+        GREATER = [ element for element in ARRAY[1:] if element > PIVOT ] # ARRAY[1:] returns all the elements starting from index 1 in ARRAY
         LESSER = [ element for element in ARRAY[1:] if element <= PIVOT ]
         return quick_sort(LESSER) + [PIVOT] + quick_sort(GREATER)
 
@@ -39,6 +39,6 @@ if __name__ == '__main__':
     except NameError:
         raw_input = input  # Python 3
 
-    user_input = raw_input('Enter numbers separated by a comma:\n').strip()
-    unsorted = [ int(item) for item in user_input.split(',') ]
+    user_input = raw_input('Enter numbers separated by a comma:\n').strip() # strip() returns a copy of the string in which all chars have been stripped from the beginning and the end of the string
+    unsorted = [ int(item) for item in user_input.split(',') ] # split() splits a string into a list. In this case split by ,
     print( quick_sort(unsorted) )

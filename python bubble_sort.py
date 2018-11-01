@@ -24,8 +24,8 @@ def bubble_sort(collection):
     >>> bubble_sort([-2, -5, -45])
     [-45, -5, -2]
     """
-    length = len(collection)
-    for i in range(length):
+    length = len(collection) # len() returns the number of items in the array
+    for i in range(length): # range() returns an array with the numbers from 0 to the specified number
         swapped = False
         for j in range(length-1):
             if collection[j] > collection[j+1]:
@@ -41,6 +41,6 @@ if __name__ == '__main__':
     except NameError:
         raw_input = input  # Python 3
 
-    user_input = raw_input('Enter numbers separated by a comma:\n').strip()
-    unsorted = [int(item) for item in user_input.split(',')]
+    user_input = raw_input('Enter numbers separated by a comma:\n').strip() # strip() returns a copy of the string in which all chars have been stripped from the beginning and the end of the string
+    unsorted = [int(item) for item in user_input.split(',')] # split() splits a string into a list. In this case split by ,
     print(bubble_sort(unsorted))

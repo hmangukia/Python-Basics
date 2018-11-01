@@ -9,7 +9,7 @@
 def addEvenNumbers(limit):
     sum = 0
     for item in range(limit):
-      if item%2 == 0:
+      if item%2 == 0:   # % (modulo) returns the remainder after item divided by 2
         sum = sum + item
 
     print("Sum is",sum)
