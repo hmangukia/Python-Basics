@@ -1,3 +1,5 @@
+import sys
+
 def binary_search(array, element, first, last):
     
     if (first>last):
@@ -20,9 +22,20 @@ n, array, index, element = 0, [], -1, None
 
 print("Enter the number of elements: ")
 n = int(input())
+
+if(n==0):
+    print("Empty Array !!!!!")
+    sys.exit(0)
+if(n==1):
+    print("Only one element in the array")
+    sys.exit(0)
     
 print("Enter the elements of the array: ")
 array = input().split(' ')
+
+if(len(array)!=n):
+    print("Size of the array and the number of elements entered do not match")
+    sys.exit(0)
 
 for i in range(len(array)):
     array[i] = int(array[i])
