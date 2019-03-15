@@ -18,3 +18,12 @@
 - Print even numbers up to nth term
 - Print odd numbers up to nth term
 - Sorting Algorithms
+- Average of a given list
+- Calculate area of rectangle using class
+- List comprehension
+- Reverse of a number
+- Stack data structure
+- Transpose using list comprehension
+- Sum of number in a range
+- GCD of two numbers
+- Check list is in descending order or not
