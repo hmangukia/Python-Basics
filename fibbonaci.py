@@ -10,3 +10,4 @@ for i in range(num):
 	print(answer)
 	temp1 = temp2
 	temp2 = answer
+#this is test
