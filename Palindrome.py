@@ -4,3 +4,4 @@ if(Input.lower() == Reverse.lower()): # lower() returns a copy of the string wit
     print('String is Palindrome')
 else:
     print('String is not Palindrome')
+kEGWCRIBEWREFL
